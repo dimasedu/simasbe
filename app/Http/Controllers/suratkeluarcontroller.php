@@ -36,7 +36,7 @@ class SuratkeluarController extends Controller
         $request->validate(
             [
                 'tglsurat' => 'required',
-                'tglmasuk' => 'required',
+                'tglkeluar' => 'required',
                 'nosurat' => 'required',
                 'pengirim' => 'required',
                 'isi' => 'required',
