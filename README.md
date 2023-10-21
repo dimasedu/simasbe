@@ -6,8 +6,7 @@ fitur fitur :
 2. update data
 3. delete data
 4. show data and view the inserted pdf file
-5. import data Excel
-6. export data pdf
+5. export data pdf
 
    
 composer update
@@ -21,4 +20,8 @@ composer require barryvdh/laravel-dompdf
 php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
 
 php artisan serve
+
+git add .
+
+
 
